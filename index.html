@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Higher or Lower Dice Roller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="rollDice()">
+
+    <div class="container">
+        <h1>Higher or Lower Dice</h1>
+
+        <p class="instructions">
+            Roll the dice. If the second die is higher than the first, you win.
+            If it is lower, you lose. If they match, it is a tie.
+            Press <strong>Roll Dice</strong> or hit Enter to roll again.
+        </p>
+
+        <div class="dice-grid">
+            <div class="dice-box">
+                <label>First Die</label>
+                <input type="text" id="die1" readonly>
+            </div>
+
+            <div class="dice-box">
+                <label>Second Die</label>
+                <input type="text" id="die2" readonly>
+            </div>
+        </div>
+
+        <div class="result-box">
+            <label>Result</label>
+            <input type="text" id="result" readonly>
+        </div>
+
+        <button id="rollBtn" onclick="rollDice()" autofocus>
+            Roll Dice
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
