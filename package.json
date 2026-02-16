@@ -1,0 +1,12 @@
+{
+  "name": "higher-or-lower-dice",
+  "version": "1.0.0",
+  "description": "Higher or Lower dice roller hosted on Microsoft Azure",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo \"Static site - no start script\"",
+    "build": "echo \"No build step required\""
+  },
+  "author": "Fawz Manzoor",
+  "license": "MIT"
+}
